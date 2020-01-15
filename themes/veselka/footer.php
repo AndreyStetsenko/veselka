@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 d-flex">
           <h2 class="text-white m-0">Подарить детям веселую жизнь</h2>
-          <a href="/контакты/" class="btn btn-primary btn-custom-1 py-3 px-5 ml-auto">Записаться</a>
+          <a href="/kontakty/" class="btn btn-primary btn-custom-1 py-3 px-5 ml-auto">Записаться</a>
           </div>
         </div>
       </div>
