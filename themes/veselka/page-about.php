@@ -18,8 +18,8 @@ get_header();
           </div>
           <div class="col-md-5 ml-auto pl-md-5">
             <span class="text-cursive h5 text-red">О нас</span>
-            <h3 class="text-black">Дарите веселую жизнь своим детям!</h3>
-            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et harum, magni sequi nostrum maxime enim.</span><span>Magnam id atque dicta deleniti, ipsam ipsum distinctio. Facilis praesentium voluptatem accusamus, earum veritatis, laudantium.</span></p>
+            <h3 class="text-black">Подаруйте дітям веселе життя!</h3>
+            <p><span>Сучасний дитячий садочок, збалансована і корисна їжа, маленька група 8-10 дітей дозволяє приділити увагу кожній дитині.  Розвиток і улюблені заняття. Професійні вихователі і кухарі. Все це ви знайдете к нас.</span></p>
 
             <p class="mt-5"><a href="#" class="btn btn-warning py-4 btn-custom-1">О садике</a></p>
           </div>
@@ -27,7 +27,7 @@ get_header();
       </div>
     </div>
 
-    <div class="site-section bg-teal">
+    <!-- <div class="site-section bg-teal">
       <div class="container">
         <div class="row justify-content-center text-center mb-5 section-2-title">
           <div class="col-md-6">
@@ -118,7 +118,7 @@ get_header();
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
 
         </div>

@@ -2717,3 +2717,19 @@ h5,
 .current_page_item a {
 	font-weight: 500!important;
 }
+
+@media (max-width: 767px) {
+	.homeb span, .homeb h1, .homeb p {
+		display: none;
+	}
+
+	.ftco-blocks-cover-1 img.img-vesmri {
+		max-width: 90%;
+		border-radius: 8px;
+		border: 3px solid #fff;
+		bottom: 0;
+		position: absolute;
+		top: 230px;
+		z-index: 9;
+	}
+}
