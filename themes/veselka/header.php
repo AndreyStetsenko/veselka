@@ -5,18 +5,19 @@
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 
   <head>
-    <title><?php wp_title(); ?> | <?php bloginfo( 'name' ); ?></title>  
+    <title><?php wp_title(); ?> | <?php bloginfo( 'name' ); ?></title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="<?php echo THEME_DIR; ?>/path/favicon.ico" />
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS2 Feed" href="<?php bloginfo('rss2_url'); ?>" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <script>(function(w,d,u){w.readyQ=[];w.bindReadyQ=[];function p(x,y){if(x=="ready"){w.bindReadyQ.push(y);}else{w.readyQ.push(x);}};var a={ready:p,bind:p};w.$=w.jQuery=function(f){if(f===d||f===u){return a}else{p(f)}}})(window,document)</script>
     <?php wp_head(); ?>
 
   </head>
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" <?php body_class(); ?> > 
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" <?php body_class(); ?> >
 
     <div class="site-wrap" id="home-section">
 
@@ -56,7 +57,7 @@
             <span class="d-inline-block d-lg-none"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-black"></span></a></span>
 
               <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
-                <?php 
+                <?php
               $args = array(
                 'menu'            => 'head_menu',
                 'menu_class'      => 'site-menu main-menu js-clone-nav mr-auto',
@@ -67,7 +68,7 @@
                 'theme_location'  => ''
               );
               wp_nav_menu( $args );
-               ?>   
+               ?>
               </nav>
 
             <?php if(get_field('social', 'option')): ?>
