@@ -34,7 +34,7 @@
 
         <div class="container mb-3">
           <div class="d-flex align-items-center">
-            <div class="site-logo mr-auto">
+            <div class="site-logo d-none d-lg-flex mr-auto">
               <a href="/"><?php bloginfo( 'name' ); ?> <img src="<?php the_field('logo', 'option'); ?>"></a>
             </div>
             <div class="site-quick-contact d-none d-lg-flex ml-auto ">
@@ -54,7 +54,10 @@
 
         <div class="container">
           <div class="menu-wrap d-flex align-items-center">
+
             <span class="d-inline-block d-lg-none"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-black"></span></a></span>
+
+            <span class="d-inline-block d-lg-none ml-auto nav-logo"><?php bloginfo( 'name' ); ?></span>
 
               <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <?php
